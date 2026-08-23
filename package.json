@@ -1,0 +1,8 @@
+{
+  "name": "bill",
+  "version": "1.0.0",
+  "dependencies": {
+    "@upstash/redis": "^1.28.4",
+    "crypto-js": "^4.1.1"
+  }
+}
