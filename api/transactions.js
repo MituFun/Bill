@@ -215,7 +215,6 @@ module.exports = async (req, res) => {
 
   } catch (error) {
     console.error('❌ API 错误:', error);
-    // 注意：这里捕获的是运行时异常，不会导致数据清空（因为数据已在之前解析成功或返回错误）
     return res.status(500).json({ error: error.message });
   }
 };

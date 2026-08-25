@@ -175,7 +175,7 @@
     "use strict";
 
     const API_BASE = '/api/transactions';
-    const PAGE_SIZE = 10;
+    const PAGE_SIZE = 5;
 
     const loginOverlay = document.getElementById('loginOverlay');
     const appContainer = document.getElementById('appContainer');
@@ -210,7 +210,6 @@
     let displayCount = PAGE_SIZE;
     let currentDetailTx = null;
 
-    // ---------- 辅助函数 ----------
     function formatDate(ts) {
       const d = new Date(ts);
       return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
