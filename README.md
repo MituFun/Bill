@@ -1,1 +1,1 @@
-# Bill
+一个简单的基于AES加密存储的个人记账系统，具体使用方法和注意事项请看我的博客：[Link](https://blog.mitufun.top/posts/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E5%9F%BA%E4%BA%8Eaes%E5%8A%A0%E5%AF%86%E5%AD%98%E5%82%A8%E7%9A%84%E4%B8%AA%E4%BA%BA%E8%AE%B0%E8%B4%A6%E7%B3%BB%E7%BB%9F/)
